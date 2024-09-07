@@ -2,22 +2,24 @@
   "name": "java-code-optimizer",
   "displayName": "Java Code Optimizer",
   "description": "Optimizes Java code by detecting and suggesting improvements for common DSA inefficiencies.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:java"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-          "command": "java-code-optimizer.helloWorld",
-          "title": "Hello World"
+        "command": "java-code-optimizer.helloWorld",
+        "title": "Hello World"
       }
-  ]
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -29,8 +31,7 @@
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "lint": "eslint src",
     "test": "vscode-test"
-},
-
+  },
   "devDependencies": {
     "@types/mocha": "^10.0.7",
     "@types/node": "^20.16.5",
@@ -49,5 +50,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/PratibhaK11/java-code-optimizer.git"
-  }
+  },
+  "publisher": "PratibhaKumari"
 }
