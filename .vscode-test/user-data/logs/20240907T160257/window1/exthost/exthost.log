@@ -1,0 +1,22 @@
+2024-09-07 16:03:00.771 [info] Extension host with pid 15769 started
+2024-09-07 16:03:01.091 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-07 16:03:01.240 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-07 16:03:01.399 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-07 16:03:01.631 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2024-09-07 16:03:01.631 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2024-09-07 16:03:01.675 [info] Eager extensions activated
+2024-09-07 16:03:01.986 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 16:03:01.990 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 16:03:02.024 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-07 16:03:02.035 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at Object.f [as $0] (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-09-07 16:03:02.035 [info] Extension host with pid 15769 exiting with code 0

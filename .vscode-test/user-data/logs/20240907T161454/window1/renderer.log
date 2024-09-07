@@ -1,0 +1,16 @@
+2024-09-07 16:14:55.765 [info] Started local extension host with pid 20056.
+2024-09-07 16:14:57.169 [info] Loading development extension at /home/pratibha/Desktop/java-code-optimizer/java-code-optimizer
+2024-09-07 16:14:58.478 [info] [0m%s%s[0m  
+2024-09-07 16:14:58.524 [info] [0m%s%s[0m    Extension Test Suite
+2024-09-07 16:14:58.573 [info]   [32m  ✔[0m[90m %s[0m Sample Test
+2024-09-07 16:14:58.594 [info] Java Code Optimizer extension is now active.
+2024-09-07 16:14:58.604 [info]   [31m  %d) %s[0m 1 Command Should Show Information Message
+2024-09-07 16:14:58.607 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 1 175ms
+2024-09-07 16:14:58.608 [info] [31m  %d failing[0m 1
+2024-09-07 16:14:58.609 [info] [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m 1 Extension Test Suite
+       Command Should Show Information Message Error: command 'java-code-optimizer.helloWorld' not found       at w.n (vscode-file://vscode-app/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/workbench.desktop.main.js:1745:32144)
+      at w.executeCommand (vscode-file://vscode-app/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/.vscode-test/vscode-linux-x64-1.93.0/resources/app/out/vs/workbench/workbench.desktop.main.js:1745:32073)
+2024-09-07 16:14:58.611 [error] 1 test failed.

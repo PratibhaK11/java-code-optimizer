@@ -1,0 +1,7 @@
+2024-09-07 16:21:07.264 [info] Started local extension host with pid 22394.
+2024-09-07 16:21:08.802 [info] Loading development extension at /home/pratibha/Desktop/java-code-optimizer/java-code-optimizer
+2024-09-07 16:21:09.967 [info] [0m%s%s[0m  
+2024-09-07 16:21:09.970 [info] [0m%s%s[0m    Extension Test Suite
+2024-09-07 16:21:09.974 [info]   [32m  ✔[0m[90m %s[0m Sample Test
+2024-09-07 16:21:10.140 [info]   [32m  ✔[0m[90m %s[0m[31m (%dms)[0m Command Should Show Information Message 166
+2024-09-07 16:21:10.168 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 2 238ms

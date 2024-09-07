@@ -1,0 +1,15 @@
+2024-09-07 16:15:41.278 [info] Started local extension host with pid 20581.
+2024-09-07 16:15:42.570 [info] Loading development extension at /home/pratibha/Desktop/java-code-optimizer/java-code-optimizer
+2024-09-07 16:15:44.082 [info] [0m%s%s[0m  
+2024-09-07 16:15:44.086 [info] [0m%s%s[0m    Extension Test Suite
+2024-09-07 16:15:44.146 [info]   [32m  ✔[0m[90m %s[0m Sample Test
+2024-09-07 16:15:46.178 [info]   [31m  %d) %s[0m 1 Command Should Show Information Message
+2024-09-07 16:15:46.180 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 1 2s
+2024-09-07 16:15:46.181 [info] [31m  %d failing[0m 1
+2024-09-07 16:15:46.182 [info] [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m 1 Extension Test Suite
+       Command Should Show Information Message Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/pratibha/Desktop/java-code-optimizer/java-code-optimizer/out/test/extension.test.js)   	at listOnTimeout (node:internal/timers:573:17)
+  	at process.processTimers (node:internal/timers:514:7)
+2024-09-07 16:15:46.184 [error] 1 test failed.
